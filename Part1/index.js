@@ -31,34 +31,40 @@ const bottomRight = board[8];
 // CHECKS ALL WINNING COMBINATIONS
 
 if (topLeft !== undefined && topLeft === topCenter && topLeft === topRight){
-    alert(`${topLeft} is the winner`);
+    alert(`${topLeft} is the winner!`);
     return
 } 
 if (middleLeft !== undefined && middleLeft === middleCenter && middleLeft === middleRight){
-    alert(`${middleLeft} is the winner`);
+    alert(`${middleLeft} is the winner!`);
     return
 }
 if (bottomLeft !== undefined && bottomLeft === bottomCenter && bottomLeft === bottomRight){
-    alert(`${bottomLeft} is the winner`);
+    alert(`${bottomLeft} is the winner!`);
     return
 }
 if (topLeft !== undefined && topLeft === middleLeft && topLeft === bottomLeft){
-    alert(`${topLeft} is the winner`);
+    alert(`${topLeft} is the winner!`);
     return
 }
 if (topCenter !== undefined && topCenter === middleCenter && topCenter === bottomCenter){
-    alert(`${topCenter} is the winner`);
+    alert(`${topCenter} is the winner!`);
     return
 }
 if (topRight !== undefined && topRight === middleRight && topRight === bottomRight){
-    alert(`${topRight} is the winner`);
+    alert(`${topRight} is the winner!`);
     return
 }
 if (topLeft !== undefined && topLeft === middleCenter && topLeft === bottomRight){
-    alert(`${topLeft} is the winner`);
+    alert(`${topLeft} is the winner!`);
     return
 }
 if (topRight !== undefined && topRight === middleCenter && topRight === bottomLeft){
-    alert(`${topRight} is the winner`);
+    alert(`${topRight} is the winner!`);
     return
 }
+
+// ***BELOW IS FOR CAT'S GAME?***
+// for (i = 0; i < cars.length; i++) {
+//     text += cars[i] + "<br>";
+//   }
+for(i = 0; i = 9)
