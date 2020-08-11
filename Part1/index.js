@@ -1,1 +1,5 @@
-console.log("Hello World");
+function play() {
+    const playerSpan = document.getElementById('player') {
+        if ()
+    }
+}
