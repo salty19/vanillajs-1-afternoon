@@ -67,4 +67,4 @@ if (topRight !== undefined && topRight === middleCenter && topRight === bottomLe
 // for (i = 0; i < cars.length; i++) {
 //     text += cars[i] + "<br>";
 //   }
-for(i = 0; i = 9)
+for(i = 0; i < 9; i++)
