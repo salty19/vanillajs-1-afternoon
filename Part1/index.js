@@ -1,10 +1,10 @@
 function play() {
-    const playerSpan = document.getElementById('player') {
-        if (`playerSpan.innerText` === `X`) {
-            let `playerSpan.innerText` = `O`;
-        } else{
-            let `playerSpan.innerText` = `X`;
-        }
-    }
+    const playerSpan = document.getElementById('player') 
     
+        if (`playerSpan.innerText` === `X`) {
+            `playerSpan.innerText` = `O`;
+        } else {
+            `playerSpan.innerText` = `X`;
+        }
 }
+
