@@ -31,26 +31,34 @@ const bottomRight = board[8];
 // CHECKS ALL WINNING COMBINATIONS
 
 if (topLeft !== undefined && topLeft === topCenter && topLeft === topRight){
-    // *** INVOKE WINNER HERE ***
+    alert(`${topLeft} is the winner`);
+    return
 } 
 if (middleLeft !== undefined && middleLeft === middleCenter && middleLeft === middleRight){
-    //*** INVOKE WINNER HERE ***
+    alert(`${middleLeft} is the winner`);
+    return
 }
 if (bottomLeft !== undefined && bottomLeft === bottomCenter && bottomLeft === bottomRight){
-    //*** INVOKE WINNER HERE ***
+    alert(`${bottomLeft} is the winner`);
+    return
 }
 if (topLeft !== undefined && topLeft === middleLeft && topLeft === bottomLeft){
-    //*** INVOKE WINNER HERE ***
+    alert(`${topLeft} is the winner`);
+    return
 }
 if (topCenter !== undefined && topCenter === middleCenter && topCenter === bottomCenter){
-    //*** INVOKE WINNER HERE ***
+    alert(`${topCenter} is the winner`);
+    return
 }
 if (topRight !== undefined && topRight === middleRight && topRight === bottomRight){
-    //*** INVOKE WINNER HERE ***
+    alert(`${topRight} is the winner`);
+    return
 }
 if (topLeft !== undefined && topLeft === middleCenter && topLeft === bottomRight){
-    //*** INVOKE WINNER HERE ***
+    alert(`${topLeft} is the winner`);
+    return
 }
 if (topRight !== undefined && topRight === middleCenter && topRight === bottomLeft){
-    //*** INVOKE WINNER HERE ***
+    alert(`${topRight} is the winner`);
+    return
 }
