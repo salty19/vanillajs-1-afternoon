@@ -1,4 +1,4 @@
-let setId = document.getElementById(idInput);
-let setColor = document.getElementById(colorInput);
+const idInput = document.getElementById(idInput);
+const colorInput = document.getElementById(colorInput);
 
 console.log(setId)
